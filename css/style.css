@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --background: #071952;
+    --primary-color:#FFFFFF;
+    --special-color:#FFED00;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 200;
+    margin: 0;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    align-self: center;
+}
+
+.primary-title{
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+h2{
+    font-size: 4rem;
+    color: var(--special-color);
+    margin: 1rem 0;
+}
+
+.third-title{
+    font-size: 2rem;
+    color:var(--special-color);
+
+}
+
+.mensagem{
+    font-size: 1.75rem;
+ 
+}
+
+.box{
+    font-size: 5rem;
+    border-radius: 6rem;
+    border: var(--primary-color) 3px solid;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    display: inline-block;
+    
+}
+
+.botao-jogar-novamente{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--background);
+    background-color: var(--special-color);
+    border: var(--special-color) 3px solid ;
+    justify-content: center;
+    border-radius: 3rem;
+ }
